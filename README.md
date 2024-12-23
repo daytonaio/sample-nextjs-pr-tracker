@@ -8,7 +8,7 @@ An AI-powered tool designed to efficiently track your GitHub pull requests acros
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create https://github.com/JeevaRamanathan/sample-nextjs-pr-tracker.git 
+   daytona create https://github.com/daytonaio/sample-nextjs-pr-tracker.git
    ```
 3. **Setting up environment varaibles**:
 
