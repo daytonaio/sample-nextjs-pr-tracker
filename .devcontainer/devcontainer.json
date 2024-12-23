@@ -1,0 +1,26 @@
+{
+  "name": "GitHub AI PR Tracker",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "javascript.validate.enable": true,
+        "eslint.validate": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
+        ],
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "gruntfuggly.todo-tree",
+        "rbbit.typescript-langauge-features"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
